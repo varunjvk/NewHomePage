@@ -1,5 +1,5 @@
 .hero-container{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     gap: 2rem;
 }
@@ -45,6 +45,11 @@
     border: none;
     border-radius: 1px;
     color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.content-right>button:hover{
+    background-color: black;
 }
 
 .img-container>img{
@@ -54,7 +59,8 @@
 .hero-right{
     background-color: black;
     color: white;
-    padding: 0.6rem;
+    padding: 1rem 2rem;
+    border-radius: 2px;
 }
 
 .hero-right .holder>h1{
@@ -66,7 +72,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .holder p{
@@ -74,6 +80,10 @@
 }
 
 hr{
-    width: 95%;
     border: 1px solid rgb(86, 85, 85);
+}
+
+.data h2:hover{
+    color: orange;
+    cursor: pointer;
 }
