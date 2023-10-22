@@ -88,39 +88,3 @@ hr{
     cursor: pointer;
 }
 
-.menu{
-    display: none;
-}
-
-
-@media (max-width:1080px) {
-    .hero-container{
-        flex-wrap: wrap;
-    }
-
-    .menu{
-        display: block;
-    }
-
-    .menu img{
-        transition: all 300ms ease-in-out;
-    }
-
-    .links ul{
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        padding: 1rem 2rem;
-        position: absolute;
-        right: 3rem;
-        top: 4.5rem;
-        border: 2px solid black;
-        border-radius: 10px;
-        transition: all 150ms ease-in;
-    }
-
-    .hide ul{
-        right:-50%
-    }
-
-}

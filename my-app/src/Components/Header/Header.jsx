@@ -14,7 +14,7 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} width={40} alt="" />
         </div>
-        <div className={`links ${menuState ? 'hide':' ' }`}>
+        <div className={`links ${!menuState ? 'hide':' ' }`}>
           <ul>
             <li>
               <a href="#">Home</a>
