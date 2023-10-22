@@ -1,9 +1,8 @@
 .c-container{
     display: flex;
     margin-top: 2rem;
-    gap:2rem;
     justify-content: space-between;
-
+    gap: 2rem;
 }
 
 .card{
@@ -37,4 +36,10 @@
 .content>:nth-child(2):hover{
     cursor: pointer;
     color: rgb(236, 88, 88);
+}
+
+@media (max-width:1080px) {
+    .c-container{
+        flex-wrap: wrap;
+    }
 }

@@ -6,11 +6,11 @@ import Hero from './Components/Hero/Hero'
 
 function App() {
   return (
-    <>
+    <div className='app-container'>
       <Header />
       <Hero />
       <Cards/>
-    </>
+    </div>
   )
 }
 

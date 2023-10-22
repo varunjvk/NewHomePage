@@ -7,6 +7,7 @@
 .hero-left{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .content-container{
@@ -23,7 +24,6 @@
     margin: 0;
     padding: 0;
     font-size: 3.5rem;
-    flex: 2;
 }
 
 .content-right{
@@ -86,4 +86,12 @@ hr{
 .data h2:hover{
     color: orange;
     cursor: pointer;
+}
+
+
+@media (max-width:1080px) {
+    .hero-container{
+        flex-wrap: wrap;
+    }
+    
 }
