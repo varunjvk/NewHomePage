@@ -5,3 +5,9 @@
   position: relative;
   overflow: hidden;
 }
+
+@media (max-width:1080px) {
+    .app-container{
+      padding: 0.5rem 0;
+    }
+}
