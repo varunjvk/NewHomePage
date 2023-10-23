@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import image from "../../assets/images/image-web-3-desktop.jpg";
 import { holderData } from "../../data";
+import mobileImage from '../../assets/images/image-web-3-mobile.jpg'
 
 const Hero = () => {
   return (
@@ -10,6 +11,7 @@ const Hero = () => {
         <div className="hero-left">
           <div className="img-container">
             <img src={image} alt="" />
+            <img className='mob-image' src={mobileImage}  alt="" />
           </div>
           <div className="content-container">
             <div className="content-left">

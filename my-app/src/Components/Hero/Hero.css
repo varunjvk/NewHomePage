@@ -55,6 +55,10 @@
     width: 100%;
 }
 
+.mob-image{
+    display: none;
+}
+
 .hero-right{
     background-color: black;
     color: white;
@@ -101,4 +105,10 @@ hr{
        font-weight: 700;
     }
 
+    .img-container>:nth-child(1){
+        display: none;
+    }
+    .mob-image{
+        display: block;
+    }
 }
