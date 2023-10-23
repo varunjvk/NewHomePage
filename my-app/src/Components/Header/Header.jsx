@@ -14,25 +14,25 @@ const Header = () => {
         <div className="logo">
           <img src={Logo} width={40} alt="" />
         </div>
-        <div className={`links ${!menuState ? 'hide':' ' }`}>
-          <ul>
-            <li>
+      
+        <div className={`links ${!menuState ? "hide" : " "}`}>
+          
               <a href="#">Home</a>
-            </li>
-            <li>
+            
+          
               <a href="#">New</a>
-            </li>
-            <li>
+            
+          
               <a href="#">Popular</a>
-            </li>
-            <li>
+            
+          
               <a href="#">Trending</a>
-            </li>
-            <li>
+            
+          
               <a href="#">Categories</a>
-            </li>
-          </ul>
         </div>
+          
+        
         <div className="menu">
           {menuState ? (
             <img
@@ -46,8 +46,8 @@ const Header = () => {
             <img
               src={menuOpen}
               onClick={() => setMenuState(!menuState)}
-                width={25}
-                height={20}
+              width={25}
+              height={20}
               alt=""
             />
           )}

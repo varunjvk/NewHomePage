@@ -20,11 +20,10 @@
     flex: 1;
 }
 
-.content-left>h1{
-    margin: 0;
-    padding: 0;
-    font-size: 3.5rem;
-}
+ .content-left{
+       font-size: 3.5rem;
+       font-weight: 700;
+    }
 
 .content-right{
     display: flex;
@@ -88,3 +87,18 @@ hr{
     cursor: pointer;
 }
 
+@media (max-width:1080px) {
+    .hero-container{
+        flex-wrap: wrap;
+    }
+
+    .content-container{
+        flex-direction: column;
+    }
+
+    .content-left{
+       font-size: 3rem;
+       font-weight: 700;
+    }
+
+}

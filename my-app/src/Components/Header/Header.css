@@ -4,14 +4,11 @@
     align-items: center;
 }
 
-.links>ul{
+.links{
     display: flex;
     gap: 1.5rem;
 }
 
-.links>ul>li{
-   list-style-type:none;
-}
 a{
     color: rgb(84, 82, 82);
     text-decoration: none;
@@ -27,10 +24,6 @@ a:hover{
 
 
 @media (max-width:1080px) {
-    .hero-container{
-        flex-wrap: wrap;
-    }
-
     .menu{
         display: block;
         cursor: pointer;
@@ -40,23 +33,25 @@ a:hover{
         transition: all 300ms ease-in-out;
     }
 
-    .links ul{
+    .links{
         display: flex;
         flex-direction: column;
         background-color: rgb(243, 234, 217);
         padding: 1rem 2rem;
         position: absolute;
         right: 3rem;
-        top: 4.5rem;
+        top: 5rem;
         font-weight: 600;
         /* border: 3px solid rgba(193, 94, 19, 0.679); */
         border-radius: 10px;
         box-shadow: 10px 5px 15px rgb(162, 146, 139);
-        transition: all 150ms ease-in;
+        transition: all 300ms ease-in;
     }
 
-    .hide ul{
-        right:-50%
+    .hide{
+       position:absolute;
+        background-color: rgb(41, 38, 11);
+        right:-50%;
     }
 
 }

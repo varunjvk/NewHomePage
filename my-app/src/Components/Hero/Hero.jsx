@@ -13,9 +13,9 @@ const Hero = () => {
           </div>
           <div className="content-container">
             <div className="content-left">
-              <h1>
+              <span>
                 The Bright <br /> Future of <br /> Web 3.0?
-              </h1>
+              </span>
             </div>
             <div className="content-right">
               <p>
